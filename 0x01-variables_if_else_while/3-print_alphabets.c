@@ -7,13 +7,21 @@
 
 int main(void)
 {
-	char alpha = 'a';
+	char lowerCase = 'a';
+	char upperCase = 'A';
 
-	while (alpha <= 'z')
+	while (lowerCase <= 'z')
 	{
-		putchar(alpha);
-		alpha++;
+		putchar(lowerCase);
+		lowerCase++;
 	}
+
+	while (upperCase <= 'Z')
+	{
+		putchar(upperCase);
+		upperCase++;
+	}
+
 	putchar('\n');
 
 	return (0);
