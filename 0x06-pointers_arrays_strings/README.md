@@ -1,1 +1,1 @@
-A README on pointers,arrays and strings
+A readme on pointers,arrays and strings
